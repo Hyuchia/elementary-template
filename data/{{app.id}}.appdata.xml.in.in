@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>{{app.id}}.desktop</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_group>{{app.group}}</project_group>
+    <project_license>{{app.license}}</project_license>
+    <_name>{{app.name}}</_name>
+    <_summary>{{app.summary}}</_summary>
+    <description>
+        <_p>{{app.description}}</_p>
+    </description>
+    <releases>
+        <release version="0.1.0" date=""/>
+    </releases>
+    <provides>
+        <binary>{{app.bin_name}}</binary>
+    </provides>
+    <developer_name>{{author.name}}</developer_name>
+    <url type="homepage">{{app.homepage}}/</url>
+    <url type="bugtracker">{{app.bugtracker}}</url>
+    <url type="donation">{{app.donation}}</url>
+    <url type="help">{{app.help}}</url>
+    <update_contact>{{app.contact}}</update_contact>
+</component>

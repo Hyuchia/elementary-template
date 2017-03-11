@@ -1,0 +1,16 @@
+[Desktop Entry]
+_Name=@APP_NAME@
+_Comment=@RELEASE_NAME@
+Exec=@EXEC_NAME@ %U
+Icon=@DESKTOP_ICON@
+_Keywords={{app.keywords}}
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories={{app.categories}}
+Actions=AboutDialog;
+X-GNOME-UsesNotifications=true
+
+[Desktop Action AboutDialog]
+_Name=About @APP_NAME@
+Exec=@EXEC_NAME@ --about
